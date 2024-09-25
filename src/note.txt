@@ -1,0 +1,5 @@
+createAsyncThunk: accepts an action type string and a function that returns a promise,
+and generates a thunk that dispatches pending/fulfilled/rejected action types based on that promise.
+
+thunk itself is spacial function or middlewear that can generate action types based on an asynchronus function and 
+its returned promise object that implemented into the thunk while  its defined.
